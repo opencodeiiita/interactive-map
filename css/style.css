@@ -1,6 +1,7 @@
 
  body{
-  background: black;
+  background-image: radial-gradient(rgba(234, 248, 76, 0.4), rgba(165, 225, 55, 0.5123) , rgba(86, 200, 17, 0.71));
+  background-size: cover;
   margin: 0px;
   padding: 0px;
 }
