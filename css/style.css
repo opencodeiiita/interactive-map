@@ -1,5 +1,4 @@
-
- body{
+body{
   background-image: radial-gradient(rgba(234, 248, 76, 0.4), rgba(165, 225, 55, 0.5123) , rgba(86, 200, 17, 0.71));
   background-size: cover;
   margin: 0px;
@@ -26,4 +25,40 @@ img{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.links{
+	background-color: #4CAF50; /* Green */
+  	border-radius: 8px;
+  	border: none;
+  	color: white;
+ 	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 15px;
+}
+.links span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.25s;
+}
+
+.links span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.25s;
+}
+
+.links:hover span {
+  padding-right: 20px;
+}
+
+.links:hover span:after {
+  opacity: 1;
+  right: 0;
 }
