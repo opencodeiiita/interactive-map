@@ -1,17 +1,27 @@
 
  body{
   background: black;
-  margin: 0px;
   padding: 0px;
+  font-family: cera pro;
 }
 h1 {
   color: rgba(255, 255, 255, 0.65);
+  text-align: center;
 }
 li a{
   color: white;
-  padding: 10px 20px
-}
-#map{
-  margin-top: 40px;
 }
 
+li{
+	text-align: center;
+}
+#map{
+  margin: 40px auto 0px auto;
+ }
+
+img{
+	align-items: center; 
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
