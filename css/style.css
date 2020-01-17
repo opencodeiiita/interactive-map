@@ -1,0 +1,17 @@
+
+ body{
+  background: black;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  color: rgba(255, 255, 255, 0.65);
+}
+li a{
+  color: white;
+  padding: 10px 20px
+}
+#map{
+  margin-top: 40px;
+}
+
