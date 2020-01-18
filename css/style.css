@@ -17,6 +17,9 @@ h1 {
   text-align: center;
   font-family: CeraPro-Bold;
 }
+ul{
+  list-style-type: none;
+}
 li a{
   color: white;
 }
@@ -45,6 +48,7 @@ img{
   	text-decoration: none;
   	display: inline-block;
   	font-size: 18px;
+    margin-top: 15px;
 }
 .links span{
   cursor: pointer;
@@ -70,3 +74,4 @@ img{
   opacity: 1;
   right: 0;
 }
+
