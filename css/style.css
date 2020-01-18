@@ -3,6 +3,11 @@
 	src:url('./fonts/CeraPro-Regular.woff');
 }
 
+@font-face{
+	font-family: CeraPro-Bold;
+	src: url('./fonts/CeraPro-Bold.woff');
+}
+
  body{
   background: black;
   padding: 0px;
@@ -11,6 +16,7 @@
 h1 {
   color: rgba(255, 255, 255, 0.65);
   text-align: center;
+  font-family: CeraPro-Bold;
 }
 li a{
   color: white;
