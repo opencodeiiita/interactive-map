@@ -1,8 +1,12 @@
+@font-face{
+	font-family: CeraPro-Regular;
+	src:url('./fonts/CeraPro-Regular.woff');
+}
 
  body{
   background: black;
   padding: 0px;
-  font-family: cera pro;
+  font-family: CeraPro-Regular;
 }
 h1 {
   color: rgba(255, 255, 255, 0.65);
