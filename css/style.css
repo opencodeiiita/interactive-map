@@ -36,15 +36,15 @@ img{
 }
 
 .links{
-	background-color: #4CAF50; /* Green */
+	background-color: #61b81a; /* Green */
   	border-radius: 8px;
   	border: none;
   	color: white;
- 	padding: 15px 32px;
+ 	  padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
-  	font-size: 15px;
+  	font-size: 18px;
 }
 .links span{
   cursor: pointer;
