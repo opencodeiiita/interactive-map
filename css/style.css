@@ -16,17 +16,10 @@ h1 {
   color: rgba(255, 255, 255, 0.65);
   text-align: center;
   font-family: CeraPro-Bold;
-}
-ul{
-  list-style-type: none;
-}
-li a{
-  color: white;
+  font-size: 55px;
+  margin-bottom: 1em;
 }
 
-li{
-	text-align: center;
-}
 #map{
   margin: 40px auto 0px auto;
  }
@@ -47,8 +40,8 @@ img{
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
-  	font-size: 18px;
-    margin-top: 15px;
+  	font-size: 18.5px;
+    margin: 2em;
 }
 .links span{
   cursor: pointer;
@@ -74,4 +67,6 @@ img{
   opacity: 1;
   right: 0;
 }
-
+.title{
+  text-align: center;
+}
