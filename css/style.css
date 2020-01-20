@@ -16,14 +16,10 @@ h1 {
   color: rgba(255, 255, 255, 0.65);
   text-align: center;
   font-family: CeraPro-Bold;
-}
-li a{
-  color: white;
+  font-size: 55px;
+  margin-bottom: 1em;
 }
 
-li{
-	text-align: center;
-}
 #map{
   margin: 40px auto 0px auto;
  }
@@ -36,15 +32,16 @@ img{
 }
 
 .links{
-	background-color: #4CAF50; /* Green */
+	background-color: #61b81a; /* Green */
   	border-radius: 8px;
   	border: none;
   	color: white;
- 	padding: 15px 32px;
+ 	  padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
-  	font-size: 15px;
+  	font-size: 18.5px;
+    margin: 2em;
 }
 .links span{
   cursor: pointer;
@@ -69,4 +66,7 @@ img{
 .links:hover span:after {
   opacity: 1;
   right: 0;
+}
+.title{
+  text-align: center;
 }
