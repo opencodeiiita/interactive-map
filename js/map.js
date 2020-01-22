@@ -2,7 +2,12 @@ function change(choice) {
     mapImage = document.getElementById("map");
     mapImage.src = "img/" + choice + ".png";
 }
-        
+
+function change_back() {
+    mapImage = document.getElementById("map");
+    mapImage.src = "img/original.png";
+}
+
 jQuery(document).ready(function () {
     $('.title-blue').mouseout(function(){
         $("#map").attr('src', 'img/original.png');
