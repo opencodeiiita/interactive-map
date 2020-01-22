@@ -14,15 +14,21 @@
     <div class="container">
         <h1>Interactive Map</h1>
         <div class="title">
-            <button class = "links" onclick="window.location.href = '#';"><span>Playground</span></button>
-            <button class = "links" onclick="window.location.href = '#';"><span>Countryside</span></button>
-            <button class = "links" onclick="window.location.href = '#';"><span>Industries</span></button>
-            <button class = "links" onclick="window.location.href = '#';"><span>Offices</span></button>
-            <button class = "links" onclick="window.location.href = '#';"><span>Houses</span></button>
+            <button class = "links" onmouseover=change('playground') onmouseout=change_back()><span>Playground</span></button>
+            <button class = "links" onmouseover=change('village') onmouseout=change_back()><span>Village</span></button>
+            <button class = "links" onmouseover=change('industry') onmouseout=change_back()><span>Industries</span></button>
+            <button class = "links" onmouseover=change('office') onmouseout=change_back()><span>Offices</span></button>
+            <button class = "links" onmouseover=change('house') onmouseout=change_back()><span>Houses</span></button>
             <br>
           </div>    
         </div>
         <img id="map" src="img/original.png">
+        <img style="display: none" src="img/original.png">
+        <img style="display: none" src="img/playground.png">
+        <img style="display: none" src="img/village.png">
+        <img style="display: none" src="img/industry.png">
+        <img style="display: none" src="img/office.png">
+        <img style="display: none" src="img/house.png">
         <map name="map">
               <area onmouseover onmouseout shape="poly" coords="206,133, 223,123, 287,86, 295,86, 315,98, 322,102, 329,99, 331,102, 341,113, 354,120, 383,137, 367,145, 363,147, 363,151, 360,167, 347,177, 338,181, 328,181, 314,181, 300,187, 294,187, 261,168, 248,161, 236,153, 206,133" href="#">
               <area onmouseover onmouseout shape="poly" coords="384,181, 382,201, 379,209, 363,224, 358,219, 355,218, 351,220, 347,217, 341,212, 347,208, 352,198, 347,188, 342,184, 342,181, 348,177, 361,168, 363,152, 364,148, 367,145, 379,139, 387,137, 395,139, 412,149, 416,149, 417,146, 416,111, 417,102, 424,96, 441,86, 447,86,
