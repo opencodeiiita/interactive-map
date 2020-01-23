@@ -1,3 +1,22 @@
+var locations = ["Playground" , "Offices" , "Industries" , "Houses" , "Villages"];
+var search = document.querySelector("#submit-btn");
+search.addEventListener("click" , function(){
+	if(locations.includes(document.getElementById("location-input").value)){
+		change(document.getElementById("location-input").value);
+	}
+	else {
+		alert("Error!!!\nThis location doesn't exist in map.");
+		change_back();
+	}
+});
+/*
+if (locations.includes(location.value))
+{
+	change(location.value);
+}
+else {
+	alert("Entered Location Doesn't exist in map");
+}*/
 function change(choice) {
     mapImage = document.getElementById("map");
     mapImage.src = "img/" + choice + ".png";
@@ -5,7 +24,7 @@ function change(choice) {
 
 function change_back() {
     mapImage = document.getElementById("map");
-    mapImage.src = "img/original.png";
+    mapImage.src = "img/Original.png";
 }
 
 jQuery(document).ready(function () {
