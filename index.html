@@ -14,15 +14,27 @@
     <div class="container">
         <h1>Interactive Map</h1>
         <div class="title">
-            <button class = "links" onmouseover=change('playground') onmouseout=change_back()><span>Playground</span></button>
-            <button class = "links" onmouseover=change('village') onmouseout=change_back()><span>Village</span></button>
-            <button class = "links" onmouseover=change('industry') onmouseout=change_back()><span>Industries</span></button>
-            <button class = "links" onmouseover=change('office') onmouseout=change_back()><span>Offices</span></button>
-            <button class = "links" onmouseover=change('house') onmouseout=change_back()><span>Houses</span></button>
+            <button class = "links" onmouseover=change('Playground') onmouseout=change_back()><span>Playground</span></button>
+            <button class = "links" onmouseover=change('Villages') onmouseout=change_back()><span>Villages</span></button>
+            <button class = "links" onmouseover=change('Industries') onmouseout=change_back()><span>Industries</span></button>
+            <button class = "links" onmouseover=change('Offices') onmouseout=change_back()><span>Offices</span></button>
+            <button class = "links" onmouseover=change('Houses') onmouseout=change_back()><span>Houses</span></button>
             <br>
-          </div>    
+            <h3>OR</h3>
+          <div><br><input type="text" id = "location-input" placeholder = "Enter A Location" list = "map-locations" size = "25"></div>
+          <div><br><button id = "submit-btn">Search Location</button></div>
+          </div>
+          </div>  
         </div>
-        <img id="map" src="img/original.png">
+        <datalist id="map-locations">
+    		<option value="Playground">
+    		<option value="Villages">
+    		<option value="Industries">
+    		<option value="Offices">
+    		<option value="Houses">
+		</datalist>
+		<br>
+        <img id="map" src="img/Original.png">
         <img style="display: none" src="img/original.png">
         <img style="display: none" src="img/playground.png">
         <img style="display: none" src="img/village.png">

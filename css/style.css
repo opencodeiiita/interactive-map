@@ -19,7 +19,10 @@ h1 {
   font-size: 55px;
   margin-bottom: 1em;
 }
-
+h3 {
+  color: rgba(41, 191, 0);
+  font-family: CeraPro-Bold;
+}
 #map{
   margin: 40px auto 0px auto;
  }
@@ -32,7 +35,7 @@ img{
 }
 
 .links{
-	background-color: #61b81a; /* Green */
+	  background-color: #61b81a; /* Green */
   	border-radius: 8px;
   	border: none;
   	color: white;
@@ -69,4 +72,24 @@ img{
 }
 .title{
   text-align: center;
+}
+.custom-input {
+  width: 32em;
+  align-items: center;
+}
+#submit-btn {
+    background-color: #61b81a; /* Green */
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18.5px;
+}
+#location-input {
+    padding: 0.3em;
+    font-size: 20px;
+    border-radius: 10px; 
 }
