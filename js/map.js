@@ -3,9 +3,10 @@ var search = document.querySelector("#submit-btn");
 search.addEventListener("click" , function(){
 	if(locations.includes(document.getElementById("location-input").value)){
 		change(document.getElementById("location-input").value);
+        document.getElementById("error").innerHTML="";
 	}
 	else {
-		alert("Error!!!\nThis location doesn't exist in map.");
+		document.getElementById("error").innerHTML="THIS IS INVALID SEARCH.";
 		change_back();
 	}
 });
