@@ -1,5 +1,5 @@
 ## interactive-map
-An app made from html , css and javascript   
+An app made from html , css and   javascript.   
 ## Communicate
 Chat with us on [Slack](https://opencodeiiita.slack.com/) and Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
