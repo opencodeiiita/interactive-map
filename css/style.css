@@ -25,6 +25,9 @@ h3 {
 }
 #map{
   margin: 40px auto 0px auto;
+  width: 100%;
+  max-width: 704.1px;
+  height: auto;
  }
 
 img{
@@ -45,6 +48,8 @@ img{
   	display: inline-block;
   	font-size: 18.5px;
     margin: 2em;
+    width: 100%;
+    max-width: 150.8px;
 }
 .links span{
   cursor: pointer;
@@ -91,7 +96,9 @@ img{
 #location-input {
     padding: 0.3em;
     font-size: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px; 
 }
 @media (max-width: 460px)
 {
