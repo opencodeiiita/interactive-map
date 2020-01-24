@@ -98,4 +98,7 @@ img{
   .links{
     display:none;
   }
+  .extra{
+    display:none;
+  }
 }
